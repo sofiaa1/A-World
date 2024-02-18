@@ -1,0 +1,387 @@
+/** ------ Extra small screen ------ **/
+/** ------ Small screen ------ **/
+/** ------ Medium screen ------ **/
+/** ------ Large screen ------ **/
+/** ------ Extra Large screen ------ **/
+body {
+  margin: 0px;
+  background-color: rgb(212, 225, 227);
+}
+
+.header {
+  background-image: url("../images/banner-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0px;
+  background-position: center -50px;
+  min-height: 750px;
+}
+@media screen and (max-width: 600px) {
+  .header {
+    background-position: center -1px;
+    min-height: 950px;
+  }
+}
+
+.Logo {
+  display: flex;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
+@media screen and (min-width: 601px) {
+  .Logo {
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+  }
+}
+@media screen and (min-width: 780px) {
+  .Logo {
+    padding-bottom: 60px;
+  }
+}
+
+.imagine {
+  width: 150px;
+}
+@media screen and (min-width: 780px) {
+  .imagine {
+    width: 200px;
+  }
+}
+.imagine:hover {
+  cursor: pointer;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  gap: 30px;
+  font-size: 25px;
+  font-family: Arial;
+  padding-bottom: 60px;
+}
+.nav-menu .buttons:active {
+  transform: translateY(4px);
+}
+@media screen and (min-width: 601px) {
+  .nav-menu {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 780px) {
+  .nav-menu {
+    gap: 50px;
+    font-size: 15px;
+  }
+}
+.nav-menu .buttons {
+  padding: 10px 15px;
+}
+.nav-menu .buttons:hover {
+  background-color: #fff;
+  color: rgb(21, 57, 33);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.bloc2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  margin: 10px 20px;
+}
+.bloc2 .adventure {
+  font-family: "Righteous", cursive;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+.bloc2 .description {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 40px;
+  font-size: 14px;
+  width: 100%;
+}
+@media screen and (min-width: 601px) {
+  .bloc2 .description {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 780px) {
+  .bloc2 .description {
+    width: 50%;
+  }
+}
+.bloc2 .GetAQuote {
+  background-color: #fff;
+  color: rgb(21, 57, 33);
+  padding: 10px 45px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 20px;
+  font-size: 13px;
+}
+.bloc2 .GetAQuote:hover {
+  color: #fff;
+  background-color: transparent;
+  border: #fff solid 2px;
+  cursor: pointer;
+}
+.bloc2 .GetAQuote:active {
+  transform: translateY(4px);
+}
+
+@media screen and (min-width: 601px) {
+  .nav-button {
+    display: none;
+  }
+}
+@media screen and (min-width: 780px) {
+  .nav-button {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .byDef {
+    display: none;
+  }
+}
+
+.container-fluid {
+  background-color: transparent;
+}
+
+.bg-dark {
+  color: rgb(212, 225, 227);
+  background-color: transparent !important;
+}
+.bg-dark p:hover {
+  cursor: pointer;
+  color: #fff;
+}
+.bg-dark p:active {
+  transform: translateY(4px);
+}
+
+.theHeading {
+  padding-left: 15%;
+}
+
+.mainContent {
+  padding: 20px 55px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+@media screen and (min-width: 780px) {
+  .mainContent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+  }
+  .mainContent .beach, .mainContent .hiking, .mainContent .camping {
+    margin: 20px;
+  }
+}
+.mainContent .clas1 {
+  padding-bottom: 30px;
+}
+.mainContent .imaginea img {
+  min-width: 275px;
+  width: 350px;
+  height: 400px;
+  border-radius: 10px;
+}
+@media screen and (min-width: 780px) {
+  .mainContent .imaginea img {
+    width: 10px;
+  }
+}
+
+.container2 {
+  padding-left: calc(5% - 7px);
+}
+.container2 .Services {
+  font-size: 40px;
+  font-weight: 700;
+}
+.container2 .text {
+  margin-right: 20px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/footer-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0px;
+  background-position: center;
+  min-height: 650px;
+}
+.contacts .form1 {
+  margin-left: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  transform: translateY(60px);
+  border: 0px;
+}
+@media screen and (min-width: 601px) {
+  .contacts .form1 {
+    padding-top: 30px;
+    transform: translateY(80px);
+  }
+}
+.contacts .form1 .mail_text {
+  border-radius: 40px;
+  border: 0px;
+  padding: 5px 20px;
+  width: 300px;
+  outline: none;
+}
+@media screen and (min-width: 601px) {
+  .contacts .form1 .mail_text {
+    width: 500px;
+    height: 50px;
+    transform: translateY(-30px);
+  }
+}
+@media screen and (min-width: 780px) {
+  .contacts .form1 .mail_text {
+    width: 530px;
+    height: 55px;
+    font-size: 20px;
+  }
+}
+.contacts .GetAQuote {
+  background-color: #fff;
+  color: rgb(6, 42, 132);
+  padding: 10px 45px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  border-radius: 20px;
+  font-size: 13px;
+  transform: translateY(60px);
+}
+.contacts .GetAQuote:hover {
+  color: #fff;
+  background-color: transparent;
+  border: #fff solid 2px;
+  cursor: pointer;
+}
+.contacts .GetAQuote:active {
+  transform: translateY(65px);
+}
+@media screen and (min-width: 601px) {
+  .contacts .GetAQuote {
+    transform: translate(200px, -25px);
+    background-color: transparent;
+    font-size: 15px;
+  }
+  .contacts .GetAQuote:hover {
+    color: #ffb700;
+    background-color: transparent;
+    border: 0px;
+    cursor: pointer;
+  }
+  .contacts .GetAQuote:active {
+    transform: translate(200px, -20px);
+  }
+}
+
+.telIcon {
+  transform: translateY(80px);
+}
+
+.TelNr {
+  color: #fff;
+  transform: translateY(80px);
+}
+.TelNr a {
+  text-decoration: none;
+  color: #fff;
+}
+.TelNr a:hover {
+  color: #ffb700;
+  transition: color 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.MailIcon {
+  transform: translateY(110px);
+}
+
+.MailAddress {
+  color: #fff;
+  transform: translateY(110px);
+}
+.MailAddress a {
+  text-decoration: none;
+  color: #fff;
+}
+.MailAddress a:hover {
+  color: #ffb700;
+  transition: color 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.socialNetworkIcons {
+  display: flex;
+  gap: 10px;
+  transform: translateY(150px);
+}
+.socialNetworkIcons .iconitseFooter {
+  cursor: pointer;
+}
+.socialNetworkIcons .iconitseFooter:active {
+  transform: translateY(3px);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.wrapper img {
+  width: 115%;
+}
+
+.imagine {
+  width: 20%;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+  padding-left: 50px;
+}
+
+h1 {
+  padding-left: 40px;
+  font-size: 40px;
+  font-weight: 700;
+}/*# sourceMappingURL=main.css.map */

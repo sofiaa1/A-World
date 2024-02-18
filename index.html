@@ -1,0 +1,165 @@
+<html>
+    <head>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="./scss/main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <!--FONT RIGHTEOUS-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Shantell+Sans:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section class="header">
+            <div class="Logo">
+                <img class="imagine" src="./images/logo.png" alt="logo">
+            </div>
+
+            <div class="nav-button">
+                <div class="collapse" id="navbarToggleExternalContent">
+                    <div style="background-color: transparent !important;" class="bg-dark p-4">
+                            <p>HOME</p>
+                            <p onClick="document.getElementById('DespreCompanie').scrollIntoView();">ABOUT</p>
+                            <p onClick="document.getElementById('Servicii').scrollIntoView();">SERVICES</p>
+                            <p onClick="document.getElementById('fotografiiVacante').scrollIntoView();">DESTINATIONS</p>
+                            <p onClick="document.getElementById('contactUs').scrollIntoView();">CONTACT US</p>
+                    </div>
+                  </div>
+                  <nav style="background-color: transparent !important;" class="navbar navbar-dark bg-dark">
+                    <div style="background-color: transparent !important;" class="container-fluid">
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                    </div>
+                  </nav>
+            </div>
+            
+
+            <div class="nav-menu byDef">
+                <div class="buttons" > HOME </div>
+                <div class="buttons" onClick="document.getElementById('DespreCompanie').scrollIntoView();">ABOUT</div> </a>
+                <div class="buttons" onClick="document.getElementById('Servicii').scrollIntoView();">SERVICES</div>
+                <div class="buttons" onClick="document.getElementById('fotografiiVacante').scrollIntoView();">DESTINATIONS</div>
+                <div class="buttons" onClick="document.getElementById('contactUs').scrollIntoView();"> CONTACT US</div>
+            </div>
+            
+            
+            <div class="bloc2" id="DespreCompanie">
+                <div class="adventure">ADVENTURE</div>
+                <div class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Delectus est assumenda eligendi quam alias, dolor iusto omnis fuga 
+                    soluta dignissimos cumque accusantium commodi perferendis repellat 
+                    veritatis, sunt praesentium. Dolores, sapiente!</div>
+                <div class="GetAQuote"> Get A Quote </div>    
+            </div>
+        </section>
+
+        <div class="container2" id="Servicii">
+            <div class="Services">Services</div>
+            <div class="Text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</div>
+        </div>
+
+        <section class="mainContent">
+            <div class="beach">
+                <div class="clas1"> <div class="imaginea"> <img src="./images/beach1.jpg" alt="beachImg"> </div></div> 
+                <div class="clas1"> Vacationing</div> 
+            </div>
+
+            <div class="hiking">
+                <div class="clas1"> <div class="imaginea"> <img src="./images/img-2.png" alt="hiking"></div></div> 
+                <div class="clas1"> Hiking </div> 
+            </div>
+
+            <div class="camping">
+                <div class="clas1"> <div class="imaginea"> <img src="./images/img-3.png" alt="camping"></div> </div> 
+                <div class="clas1">Camping</div> 
+            </div>
+        </section>
+
+        <section class="BLOG">
+
+        </section>
+
+
+        <section id="fotografiiVacante">
+            <h1>Destinations</h1>
+            <div class="wrapper">
+                    
+                    <div class="imagine">
+                        <img src="./images/greece.jpg" alt="">
+                        <span>Greece</span>
+                    </div>
+                    
+                    <div class="imagine">
+                        <img src="./images/italy2.jpg" alt="">
+                        <span>Italy</span>
+                    </div>  
+                    
+                    <div class="imagine">
+                        <img src="./images/spain.jpg" alt="">
+                        <span>Spain</span>
+                    </div> 
+        
+                    <div class="imagine">
+                        <img src="./images/beach1.jpg" alt="">
+                        <span>France</span>
+                    </div>  
+                    
+                    <div class="imagine">
+                        <img src="./images/corsica.jpg" alt="">
+                        <span>Corsica</span>
+                    </div>  
+        
+                    <div class="imagine">
+                        <img src="./images/switzerland.jpg" alt="">
+                        <span>Switzerland</span>
+                    </div> 
+        
+        
+              </div>
+        </section>
+
+
+
+
+
+        <section class="contacts">
+            <div class="form1">
+                <input type="text" class="mail_text" placeholder="Enter your email" name="Enter your email">
+            </div>
+
+            <div class="GetAQuote"> SUBSCRIBE </div> 
+
+            <div class="telIcon">
+                <img src="./images/call-icon.png" alt="callIcon">
+            </div>
+
+            <div class="TelNr">
+                <a href="tel:123-456-7890"><span>Call +01 123-456-7890</span> </a>
+            </div>
+
+            <div class="MailIcon">
+                <img src="./images/mail-icon.png" alt="mailIcon">
+            </div>
+
+            <div class="MailAddress">
+                <a href="mailto:demo@gmail.com"><span>demo@gmail.com</span></a>
+            </div>
+
+            <div class="socialNetworkIcons" id="contactUs">
+                <div class="iconitseFooter iconitseFooter1"><img src="./images/fb-icon.png" alt="fb"></div>
+                <div class="iconitseFooter iconitseFooter2"><img src="./images/twitter-icon.png" alt="twitter-icon"></div>
+                <div class="iconitseFooter iconitseFooter3"><img src="./images/linkedin-icon.png" alt="linkedin"></div>
+                <div class="iconitseFooter iconitseFooter4"><img src="./images/instagram-icon.png" alt="insta"></div>
+            </div>
+
+        </section>
+        
+    </body>
+
+</html>
+
+

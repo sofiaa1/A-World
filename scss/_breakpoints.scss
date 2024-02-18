@@ -1,0 +1,49 @@
+// Breakpoints
+/** ------ Extra small screen ------ **/
+@mixin for-esm {
+    @media screen and (min-width: 375px) {
+        @content;
+    }
+}
+
+/** ------ Small screen ------ **/
+@mixin for-sm {
+    @media screen and (min-width: 601px) {
+        @content;
+    }
+}
+
+// @media screen and (max-width:480px) {
+//     .mydiv {display:none}
+// }
+
+
+
+/** ------ Medium screen ------ **/
+@mixin for-md {
+    @media screen and (min-width: 780px) {
+        @content;
+    }
+}
+
+/** ------ Large screen ------ **/
+@mixin for-lg {
+    @media screen and (min-width: 992px) {
+        @content;
+    }
+}
+  
+/** ------ Extra Large screen ------ **/
+@mixin for-xl {
+    @media screen and (min-width: 1200px) {
+        @content;
+    }
+}
+
+
+
+@mixin for-xxlesm {
+    @media screen and (max-width: 600px) {
+        @content;
+    }
+}
